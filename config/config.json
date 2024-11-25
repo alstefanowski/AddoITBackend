@@ -1,0 +1,41 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "admin",
+    "database": "addoitDb",
+    "host": "localhost",
+    "dialect": "postgres",
+    "pool": {
+      "max": 5,
+      "min": 0,
+      "acquire": 30000,
+      "idle": 10000
+    }
+  },
+  "test": {
+    "username": "postgres",
+    "password": "admin",
+    "database": "addoitDb_test",
+    "host": "localhost",
+    "dialect": "postgres",
+    "pool": {
+      "max": 5,
+      "min": 0,
+      "acquire": 30000,
+      "idle": 10000
+    }
+  },
+  "production": {
+    "username": "your_db_username",
+    "password": "your_db_password",
+    "database": "your_db_name",
+    "host": "your_db_host",
+    "dialect": "postgres",
+    "pool": {
+      "max": 5,
+      "min": 0,
+      "acquire": 30000,
+      "idle": 10000
+    }
+  }
+}
